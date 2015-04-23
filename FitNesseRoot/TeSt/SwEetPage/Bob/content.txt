@@ -4,4 +4,3 @@ Add it
 bang
 Automated Push
 Automated Push1
-Automated Push2
