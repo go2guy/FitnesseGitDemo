@@ -5,3 +5,4 @@ bang
 Auto1
 Auto2
 Auto3
+Auto4
