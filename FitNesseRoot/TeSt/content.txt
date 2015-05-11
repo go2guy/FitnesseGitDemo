@@ -1,5 +1,3 @@
-
-
 !define TEST_SYSTEM {fit}
 
 !path C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\*
