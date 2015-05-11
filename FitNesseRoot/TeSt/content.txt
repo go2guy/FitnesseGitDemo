@@ -8,7 +8,7 @@
 
 
 !*****> Test Variables
-!define serverName {!-https://control-qa5.dev.d3banking.com-!}
+!define serverName {!-https://control-oob.dev.d3banking.com-!}
 !define dbUrl {10.1.1.134}
 !define dbUserName {d3qa}
 !define dbPassword {d3qa}
