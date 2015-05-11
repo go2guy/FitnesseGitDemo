@@ -1,2 +1,9 @@
-BLAH PAGE
 !contents -R2 -g -p -f -h
+
+!define TEST_SYSTEM {fit}
+
+!path lib/*.jar
+!path /data/fitnesse/smartrics-RestFixture-3.1-SNAPSHOT/lib/*.jar
+!path /data/fitnesse/slf4j-1.7.8/slf4j-simple-1.7.8.jar
+!path /data/fitnesse/testrails/TestRailFixture.jar
+!path /data/fitnesse/testrails/json-simple-1.1.1.jar
