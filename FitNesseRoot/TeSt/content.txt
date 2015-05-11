@@ -1,4 +1,4 @@
-!contents -R2 -g -p -f -h
+
 
 !define TEST_SYSTEM {fit}
 
@@ -20,5 +20,7 @@
 !define userName {!-admin@d3banking.com-!}
 !define password {password}
 *****!
+
+!contents -R2 -g -p -f -h
 
 
