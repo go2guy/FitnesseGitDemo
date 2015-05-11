@@ -1,15 +1,12 @@
 !define TEST_SYSTEM {fit}
-!*****> Test Variables
 !define serverName {!-https://control-oob.dev.d3banking.com-!}
 !define dbUrl {10.1.1.134}
 !define dbUserName {d3qa}
 !define dbPassword {d3qa}
 !define dbName {qa5}
-
-
 !define userName {!-admin@d3banking.com-!}
 !define password {password}
-*****!
+
 !path C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\*
 !path C:\Users\Herb\git\RestFixture\target\smartrics-RestFixture-4.1-SNAPSHOT.jar
 !path C:\Users\Herb\git\RestFixture\target\dependencies\*.jar
