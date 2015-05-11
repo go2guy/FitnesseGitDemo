@@ -2,8 +2,8 @@
 
 !define TEST_SYSTEM {fit}
 
-!path lib/*.jar
-!path /data/fitnesse/smartrics-RestFixture-3.1-SNAPSHOT/lib/*.jar
-!path /data/fitnesse/slf4j-1.7.8/slf4j-simple-1.7.8.jar
-!path /data/fitnesse/testrails/TestRailFixture.jar
-!path /data/fitnesse/testrails/json-simple-1.1.1.jar
+!path C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\*
+!path C:\Users\Herb\git\RestFixture\target\smartrics-RestFixture-4.1-SNAPSHOT.jar
+!path C:\Users\Herb\git\RestFixture\target\dependencies\*.jar
+!path C:\slf4j\slf4j-1.7.8\slf4j-simple-1.7.8.jar
+!path C:\Fitnesse\json-simple-1.1.1.jar
