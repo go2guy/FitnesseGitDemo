@@ -7,26 +7,7 @@
 !|smartrics.rest.fitnesse.fixture.RestFixtureConfig|
 |http.client.connection.timeout|50000|
 
-|smartrics.rest.fitnesse.fixture.FitRestFixture|${serverName}/d3-control-rest/api|
-|setHeader|!-Content-Type : application/json;charset=UTF-8-!|
-|GET|/login|200|||
-|let|sessionId|header|JSESSIONID=(.+); Path||
-|let|csrfToken|header|X-CSRF-TOKEN:(.+)||
 
-
-
-
-|smartrics.rest.fitnesse.fixture.FitRestFixture|${serverName}/d3-control-rest/api|
-|setHeader|!-Content-Type : application/json;charset=UTF-8
-Cookie: JSESSIONID=-!%sessionId%!-
-x-csrf-token: -!%csrfToken%|
-|setBody|!-{
-    "user": {
-        "username": "-!${userName}!-", 
-        "password": "-!${password}!-"
-    }
-}-!|
-|POST|/login|200|||
 
 !|query|!-SELECT FORMAT(GetUtcDate(),'yyyy-MM-dd"T"HH:mm:ss.fffZ') as createdTimestamp-!|
 |createdTimestamp?|
