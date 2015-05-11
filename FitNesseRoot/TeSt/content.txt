@@ -1,12 +1,4 @@
 !define TEST_SYSTEM {fit}
-
-!path C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\*
-!path C:\Users\Herb\git\RestFixture\target\smartrics-RestFixture-4.1-SNAPSHOT.jar
-!path C:\Users\Herb\git\RestFixture\target\dependencies\*.jar
-!path C:\slf4j\slf4j-1.7.8\slf4j-simple-1.7.8.jar
-!path C:\Fitnesse\json-simple-1.1.1.jar
-
-
 !*****> Test Variables
 !define serverName {!-https://control-oob.dev.d3banking.com-!}
 !define dbUrl {10.1.1.134}
@@ -18,6 +10,14 @@
 !define userName {!-admin@d3banking.com-!}
 !define password {password}
 *****!
+!path C:\Program Files (x86)\Java\jdk1.8.0_25\jre\lib\*
+!path C:\Users\Herb\git\RestFixture\target\smartrics-RestFixture-4.1-SNAPSHOT.jar
+!path C:\Users\Herb\git\RestFixture\target\dependencies\*.jar
+!path C:\slf4j\slf4j-1.7.8\slf4j-simple-1.7.8.jar
+!path C:\Fitnesse\json-simple-1.1.1.jar
+
+
+
 
 !contents -R2 -g -p -f -h
 
